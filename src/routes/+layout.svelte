@@ -4,4 +4,9 @@
 	let { children } = $props();
 </script>
 
+<div class="pointer-events-none absolute -z-10 size-full bg-radial from-white/5 to-white/10">
+	<div
+		class="size-full animate-[pan_120s_linear_infinite] bg-[url($lib/assets/circle-pattern.svg)] bg-size-[20px] opacity-10 will-change-[background-position]"
+	></div>
+</div>
 {@render children?.()}

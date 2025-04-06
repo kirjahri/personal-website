@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="flex h-screen items-center justify-center">
-	<div class="m-2 grid h-180 w-7xl grid-rows-[auto_1fr] rounded-lg border">
+	<div class="m-2 grid h-180 w-7xl grid-rows-[auto_1fr] rounded-lg border bg-white">
 		<Header />
 		<div class="grid grid-cols-[auto_1fr] grid-rows-1 gap-2 p-2">
 			<Navbar>
@@ -23,3 +23,11 @@
 		</div>
 	</div>
 </div>
+
+<style lang="postcss">
+	@reference 'tailwindcss';
+
+	:global(html) {
+		@apply bg-gray-800;
+	}
+</style>

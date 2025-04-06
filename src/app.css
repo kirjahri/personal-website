@@ -14,3 +14,13 @@
 	--font-sans: 'Inter', sans-serif;
 	--font-mono: 'IBM Plex Mono', monospace;
 }
+
+@keyframes pan {
+	0% {
+		background-position: 0% 0%;
+	}
+
+	100% {
+		background-position: 100% 0%;
+	}
+}
