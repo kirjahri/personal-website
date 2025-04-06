@@ -1,11 +1,17 @@
 <script lang="ts">
-	import NavLink from './NavLink.svelte';
+	import type { Snippet } from 'svelte';
+
+	interface Props {
+		children: Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
-<aside class="outline">
+<aside class="rounded-lg border p-2">
 	<nav>
 		<ul>
-			<NavLink href="/" content="Home" />
+			{@render children?.()}
 		</ul>
 	</nav>
 </aside>

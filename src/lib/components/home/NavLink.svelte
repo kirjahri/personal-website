@@ -1,5 +1,10 @@
 <script lang="ts">
-	let { href, content }: { href: string; content: string } = $props();
+	interface Props {
+		href: string;
+		content: string;
+	}
+
+	let { href, content }: Props = $props();
 </script>
 
-<li><a {href}>{content}</a></li>
+<li><a class="block w-50 rounded-lg border p-2" {href}>{content}</a></li>
