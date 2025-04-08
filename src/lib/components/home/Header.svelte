@@ -11,5 +11,7 @@
 			<a href="/" class="hover:text-white hover:underline">kirja.me</a>
 		</h2>
 	</div>
-	<img src={neocitiesBadge} alt="Neocities badge" class="float-right" />
+	<a href="https://neocities.org/site/kirjahri" target="_blank">
+		<img src={neocitiesBadge} alt="Neocities badge" class="float-right" />
+	</a>
 </header>
