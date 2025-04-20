@@ -9,7 +9,7 @@
 </script>
 
 <aside
-	class="rounded-lg border-2 border-lime-800 bg-lime-800 bg-gradient-to-b from-transparent to-white/20 p-2 inset-shadow-sm inset-shadow-white/20"
+	class="rounded-lg border-2 border-lime-800 bg-lime-800 bg-gradient-to-b from-transparent to-white/15 p-2 inset-shadow-sm inset-shadow-white/15"
 >
 	<nav>
 		<ul>

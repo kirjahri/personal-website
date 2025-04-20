@@ -20,7 +20,7 @@
 			</Navbar>
 			<main class="rounded-lg border-2 border-lime-800 p-2 text-white">
 				<section
-					class="rounded-lg border-2 border-lime-800 bg-lime-800 bg-gradient-to-b from-transparent to-white/20 p-2 inset-shadow-sm inset-shadow-white/20"
+					class="rounded-lg border-2 border-lime-800 bg-lime-800 bg-gradient-to-b from-transparent to-white/15 p-2 inset-shadow-sm inset-shadow-white/15"
 				>
 					<h1 class="text-2xl font-medium">Welcome!</h1>
 					<hr class="my-2 text-white/50" />
